@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: samplejavaapp
-        image: lerndevops/samplejavaapp:bno
+        image: adarshadhal/pythonapp:ad-v1
         ports:
         - name: http
           containerPort: 8080
