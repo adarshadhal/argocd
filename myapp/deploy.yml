@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: samplejavaapp
-        image: adarshadhal/pythonapp:ad-v1
+        image: lerndevops/samples:kubeserve-v1
         ports:
         - name: http
           containerPort: 8080
