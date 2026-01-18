@@ -1,23 +1,23 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: addressbook
+  name: firstweb-application
   labels:
-    app: sampleapp
+    app: firstweb
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: sampleapp
+      app: firstweb
   template:
     metadata:
       labels:
-        app: sampleapp
+        app: firstweb
     spec:
       containers:
-      - name: samplejavaapp
-        image: adarshadhal/pythonapp:ad-v1
+      - name: firstweb
+        image: adarshadhal/firstweb
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 8082
 
