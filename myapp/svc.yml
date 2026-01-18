@@ -1,12 +1,12 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: addressbook-svc
+  name: firstweb-svc
 spec:
   type: NodePort
   selector:
-    app: sampleapp
+    app: firstweb
   ports:
   - port: 8080
-    targetPort: 8080
+    targetPort: 8082
     nodePort: 30002
