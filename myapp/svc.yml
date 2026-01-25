@@ -7,6 +7,6 @@ spec:
   selector:
     app: firstweb
   ports:
-  - port: 8080
+  - port: 80
     targetPort: 8082
     nodePort: 30002
