@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: firstweb
-        image: adarshadhal/firstweb:4
+        image: adarshadhal/firstweb:1
         ports:
         - name: http
           containerPort: 8082
